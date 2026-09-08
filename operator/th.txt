@@ -1,0 +1,15 @@
+There are three types of operators in JavaScript
+1. unary operators
+    - it will required only one operand
+2. binary operators
+    - it will required two operands
+3. ternary operators
+    - it will required three operands
+
+
+Binary Operators
+1. Airthmetic Operators : + , - , * , / , % , ** 
+2. Assignment Operators : = , += , -= , *= , /= , %= 
+3. comaprision Operators : == , === , != , !== , < , > , <= , >=
+4. Logical Operators : && , || , !
+5. Bitwise Operators : & , | , ^ , ~ , << , >>
