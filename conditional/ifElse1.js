@@ -9,7 +9,7 @@ let c = 50;
 if(a>b)
     if(a>c)
         console.log("A is gretter");
-        console.log("A is really gretter");  
+        // console.log("A is really gretter");  
     else
         console.log("C is greater");
 else
