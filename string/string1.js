@@ -20,5 +20,5 @@ let name = "pooja khan";
 // console.log(ans);
 
 
-take username form user and print  poojakhan => @poojakhan9
-pranshumoradiya => @pranshumoradiya15
+// take username form user and print  poojakhan => @poojakhan9
+// pranshumoradiya => @pranshumoradiya15
