@@ -80,3 +80,16 @@ console.log(arr);
 
 
 // let ans = poojasoundagar
+
+let name = "pooja";
+// let ans = name.split("").reverse().join("");
+// console.log(ans);
+
+let len = name.length;
+let ans = " ";
+for(let i=len-1;i>=0;i--)
+{
+    // console.log(name[i]);
+    ans += name[i];
+}
+console.log(ans);
