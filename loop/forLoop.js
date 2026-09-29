@@ -35,9 +35,9 @@
 // }
 
 
-    var i=1;
+//     var i=1;
 
-do{
-    console.log("hello");
-    i++;
-}while(i<=105)
+// do{
+//     console.log("hello");
+//     i++;
+// }while(i<=105)
