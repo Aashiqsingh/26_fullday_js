@@ -16,12 +16,23 @@ function arts(fname,per)
 
 
 // cb - callback 
+// function admission(fname,per,cb)
+// {
+//     let x = cb(fname,per);
+//     // console.log(x);
+
+//     return x;
+
+//     // console.log(cb(fname,per));
+    
+// }
+
 function admission(fname,per,cb)
 {
-    let x = cb(fname,per);
+    return cb(fname,per);
     // console.log(x);
 
-    return x;
+    
 
     // console.log(cb(fname,per));
     
