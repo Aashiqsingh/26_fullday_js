@@ -54,3 +54,9 @@ var products = [
 // 8. Calculate Total Price of All Products
 // 9. Find Product with Highest Battery Life
 // 10. Search Product by Color + Availability
+
+
+// 1. Category-wise Product Analysis
+// 2. Find Common Colors Between Products
+// Find Best Product Based on Multiple Conditions
+// 
