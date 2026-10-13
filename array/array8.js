@@ -69,7 +69,7 @@ var employees = [
         department: "Marketing",
         isPermanent: false
     }
-// ];
+];
 
 // Display All Employee Names
 
