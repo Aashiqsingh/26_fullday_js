@@ -73,6 +73,10 @@ var departments = [
     },
 ]
 
+// find working employee of all departments
+
+
+
 // let ans = departments.find((dept)=>{
 //     return dept.name == "Finance"
 // }).employees.filter((emp)=>{
@@ -89,8 +93,8 @@ var departments = [
 // console.log(ans);
 
 
-let ans = departments.find((deprt)=> deprt.name == "IT").employees.reduce((sum,emp)=> sum + emp.age,0);
-console.log(ans);
+// let ans = departments.find((deprt)=> deprt.name == "IT").employees.reduce((sum,emp)=> sum + emp.age,0);
+// console.log(ans);
 
 
 
@@ -118,3 +122,25 @@ console.log(ans);
 //     return dept.employees
 // })
 // console.log(ans);
+
+
+// 1\. Display the names of all employees from every department.
+
+// 2\. Display each department's name along with the names of its employees.
+
+// 3\. Find and display all employees whose age is greater than 30.
+
+// 4\. Display the names of all active employees.
+
+// 5\. Count and display the total number of employees in each department.
+
+// 6\. Find and display all female employees across every department.
+
+// 7\. Find and display the oldest employee's name and age.
+
+// 8\. Count the total number of active and inactive employees in the company.
+
+// 9\. Calculate and display the average age of employees in each department.
+
+// 10\. Display the names of departments that have more than two active employees.
+
