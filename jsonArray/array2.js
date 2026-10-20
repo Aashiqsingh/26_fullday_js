@@ -45,6 +45,9 @@ var products = [
     }
 ]
 
+let ans = products.filter((prop)=> prop.color.includes("white"))
+console.log(ans);
+
 
 // let ans=products.reduce((price,pro)=>price+pro.price,0)
 // console.log(ans);
