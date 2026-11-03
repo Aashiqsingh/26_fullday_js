@@ -163,6 +163,9 @@ var company = [
 // Calculate the average salary of employees in "Tech Solutions".
 // Sum up the salary values of employees in "Tech Solutions" and divide by the number of employees in that company.
 
+let ans = company.find((comp)=> comp.companyname === "Tech Solutions").employees.reduce((avg,emp)=> avg + emp.salary,0)/company.find((comp)=> comp.companyname === "Tech Solutions").employees.length;
+console.log(ans);
+
 
 // Find employees who are older than 30.
 // Search through all employees arrays for employees with an age greater than 30 and list their details.
