@@ -131,6 +131,27 @@ var company = [
 ]
 
 
+// Find the total number of employees working in all companies.
+
+// Calculate the total salary expense of each company.
+
+// Find the average salary of all employees.
+
+// Find the employee who receives the highest salary.
+
+// Find the employee who receives the lowest salary.
+
+// Display employees whose salary is between 25,000 and 30,000.
+
+// Count the total number of male and female employees.
+
+// Find the total number of married employees in each company.
+
+// Find the company that has the highest total salary expense.
+
+// Sort all employees according to their salaries in descending order.
+
+
 
 // 1.  Find the total number of employees in all companies.
 
@@ -142,12 +163,24 @@ var company = [
 
 // let ans = company.find((comp)=> comp.employees.find((emp)=> emp.name === "riya")).name
 
-console.log(ans);
+// console.log(ans);
 
 // 3. Calculate the average salary of employees across all companies.
+// let ans = company.reduce((sum,comp)=> sum + comp.employees.reduce((sum,emp)=> sum + emp.salary,0),0)/company.reduce((count,comp)=> count + comp.employees.length,0)
+// console.log(ans);
+
 // 4. Find the names of all employees who are married.
+                                                                             
 // 5. Count the total number of children across all employees
+// ans=company.reduce((count,comp)=>count+comp.employees.reduce((count,comp)=>count+comp.child,0),0)
+// console.log(ans)
 // 7. List all female employees.
+// ans=company.map((comp)=>comp.employees.filter((comp)=>comp.gender=="female").map((emp)=>emp.name))
+// console.log(ans)
 // 8. Count how many employees are not married.
+// let ans = company.reduce((count, comp) => count + comp.employees.filter((emp) => emp.IsMarried === false).length, 0);
+// console.log(ans);
 // 9. Find the email addresses of all employees earning more than 30,000.
+// let ans = company.map((comp) =>comp.employees.filter((emp) => emp.salary > 30000));
+// console.log(ans);
 // 10. Identify the total number of employees for each company.
