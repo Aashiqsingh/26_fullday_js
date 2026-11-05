@@ -145,11 +145,22 @@ var company = [
 
 // Count the total number of male and female employees.
 
+
 // Find the total number of married employees in each company.
+// let ans = company.map((comp)=> comp.employees.filter((emp)=> emp.IsMarried == true).length)
+// console.log(ans);
+
 
 // Find the company that has the highest total salary expense.
+// let ans = company.map((comp)=> comp.employees.reduce((total,emp)=> total + emp.salary,0)).reduce((max,emp)=> max > emp ? max : emp,0)
+// console.log(ans);
+// ans = company.map((comp)=>({name:comp.name,salary:comp.employees.reduce((sum,emp)=>sum+emp.salary,0)})).reduce((max,comp)=>comp.salary>max.salary?comp:max)
+// console.log(ans)
+
 
 // Sort all employees according to their salaries in descending order.
+// ans = company.reduce((arr,comp)=>arr.concat(comp.employees),[]).sort((a,b)=> b.salary - a.salary)
+// console.log(ans)
 
 
 
